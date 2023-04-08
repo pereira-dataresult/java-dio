@@ -1,4 +1,4 @@
-package br.com.dio.model
+package br.com.dio.model;
 
 import java.util.Objects;
 import java.util.jar.Attributes.Name;
@@ -42,7 +42,7 @@ public class gato {
 
     @Override
     public int hashCode() {
-        return Objects.hash(cor, idade, nome)
+        return Objects.hash(cor, idade, nome);
     }
 
     @Override
@@ -59,7 +59,7 @@ public class gato {
 
     @Override
     public String toString () {
-        return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]"
+        return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
     }
 
 }
