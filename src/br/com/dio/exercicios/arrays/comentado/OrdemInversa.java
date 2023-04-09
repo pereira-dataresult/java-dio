@@ -10,7 +10,7 @@ e mostre-os na ordem inversa.
 */
 public class OrdemInversa {
     public static void main(String[] args) {
-        int[] vetor = {5, 8, 9, 6, 11, -1}; //inicializando um vetor com 5 elementos.
+        int[] vetor = {5, 8, 9, 6, 11, -1}; //inicializando um vetor com 6 elementos.
 
         int count = (vetor.length - 1); //o contador deverá ser um número menor que o tamanho do vetor.
         System.out.print("Vetor Inverso: "); //Frase ilustrativa

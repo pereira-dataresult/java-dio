@@ -21,6 +21,7 @@ public class Ex1_NomeEIdade {
 
             System.out.println("Idade: ");
             idade = scan.nextInt();
+            if (idade == 0) break;
         }
 
         System.out.println("Continua aqui...");
